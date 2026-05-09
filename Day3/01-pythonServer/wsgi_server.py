@@ -102,8 +102,6 @@ class WSGIServer:
 
 
 # ── WSGIアプリを自前で書く（Flaskなしで動作確認） ──
-
-
 def my_app(environ, start_response):
     """これがWSGIアプリの最小形。Flaskはこの形を満たした巨大版。"""
     path = environ['PATH_INFO']
