@@ -25,7 +25,7 @@ func main() {
 	// defer: この関数が終了するときに実行される
 	// listenerを確実にクローズするために使う
 	defer listener.Close()
-　
+
 	fmt.Println("TCPサーバー起動 :8080")
 
 	// 無限ループでクライアントの接続を待ち続ける
