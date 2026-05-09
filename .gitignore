@@ -64,3 +64,6 @@ venv/
 .DS_Store?
 .Trash-*
 
+#
+plan.md
+
