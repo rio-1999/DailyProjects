@@ -51,7 +51,7 @@ print(encode_domain("google.com").hex())
 
 # --- 質問セクションを組み立てる ---
 
-domain = "google.com"
+domain = "github.com"
 qname = encode_domain(domain)
 
 qtype = 1   # A レコード (IPv4)
